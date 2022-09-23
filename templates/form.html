@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>cv_form</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+
+</head>
+<body>
+
+    <div class="main">
+        <div class="top-section">
+            <img src="imagenes/perfil.png" class="perfil">
+            <p class="p1">{{name_}}</p>
+            <p class="p2">{{occupation_}}</p>
+        </div>
+        <div class="clearfix"></div>
+
+        <div class="a">
+            <div class="content-box" style="padding-left: 40px;">
+
+                <p class="head">CONTACTO</p>
+                <p class="p3">{{phone_}}</p>
+                <p class="p3">{{email_}}</p>
+                <p class="p3">{{nationality_}}</p>
+                <p class="p3">linkedin.com/jose-martinez</p>
+                <p class="p3">{{date_}}</p>
+                <br>
+                <p class="head">IDIOMAS</p>
+                <p class="p3">Español: Nativo</p>
+                <p class="p3">Inglés: {{level_}}</p>
+                <p class="p3">Francés: Intermedio (B2)</p>
+
+                <br>
+                <p class="head">APTITUDES</p>
+                <ul class="aptitudes">
+                    <li><span>{{aptitudes_}}</span></li>
+                </ul>
+
+                <br>
+                <p class="head">HABILIDADES</p>
+                <ul class="habilidades">
+                    <li><span>{{skills_}}</span></li>
+
+                </ul>
+
+                <br>
+                <p class="head">OTROS INTERESES</p>
+                <ul class="otrosintereses">
+                    <li><span>{{language_}}</span></li>
+ 
+
+                </ul>
+
+            </div>
+        </div>
+
+        <div class="b">
+            <div class="content-box">
+                <p class="head">PERFIL</p>
+                <p class="p3">
+                    {{profile_}}
+                </p>
+                <br>
+                <p class="head">EXPERIENCIA LABORAL</p>
+
+                <p>Trabajador Social</p>
+                <p class="p4">
+                    <ul class="otrosintereses">
+                        <li><span>Coordinador y mediador entre los equipos de ayuda psicolégica a jovenes y niños en exclusión social.</span></li>
+                        <li><span>Velar por la salud mental del equipo y de miembros involucrados en proyectos.</span></li>
+                        <li><span>Mepeo de necesidades estrategicas y lógicas para las diferentes áreas.</span></li>
+                        <li><span>Monitor de ejercicios físicos adolescentes.</span></li>
+                        <li><span>Programar diferentes actividades extracurriculares en los involucrados.</span></li>
+
+                    </ul>
+                </p>
+
+                <p>Trabajador Social</p>
+                <p class="p4">
+                    <ul class="otrosintereses">
+                        <li><span>Funciones para seguimientos de casos para jóvenes con problemas de adicciones. </span></li>
+                        <li><span>Capacitaciones e integración vinculadas a medidas preventivas.</span></li>
+                        <li><span>Recopilacion de evidencias para auditorías y programas sociales.</span></li>
+                    </ul>
+                </p>
+
+                <p>Trabajador Social (Prácticas)</p>
+                <p class="p4">
+                    <ul class="otrosintereses">
+                        <li><span>Profesor de lengua española e inglesa para jovenes migrantes.</span></li>
+                        <li><span>Monitor de actividades ecológicas con adolescentes.</span></li>
+                        <li><span>Coordinador de áreas deportivas.</span></li>
+                    </ul>
+                </p>
+                <br>
+                <p class="head">FORMACION</p>
+                <p class="p4">Grado de Trabajo Social</p>
+                <p class="p4">ESMA, Madrid | 2012 - 2015</p>
+                <br>
+                <p class="p4">Licenciatura Profesional</p>
+                <p class="p4">Universidad de la Frontera, México DF | 2011 - 2012</p>
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+    <br>
+</body>
+</html>
