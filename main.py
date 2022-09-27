@@ -7,7 +7,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-@app.route("/curriculum", methods=["POST"])
+@app.route("/form", methods=["POST"])
 
 def curriculum():
     name=request.form.get("name")
